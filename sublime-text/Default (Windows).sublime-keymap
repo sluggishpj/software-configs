@@ -1,0 +1,80 @@
+[
+    {
+        "keys": ["ctrl+alt+c"],
+        "command": "side_bar_files_open_with",
+        "args":
+        {
+            "paths": [],
+            "application": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": ".*" //any file with extension  
+        }
+    },
+
+
+    {
+        "keys": ["ctrl+alt+i"],
+        "command": "side_bar_files_open_with", // ctrl+fn+f1在firefox中打开  
+        "args":
+        {
+            "paths": [],
+            "application": "C:\\Program Files (x86)\\Internet Explorer\\iexplore.exe",
+            "extensions": ".*" //any file with extension  
+        }
+    },
+    {
+        "keys": ["ctrl+alt+f"],
+        "command": "side_bar_files_open_with", // ctrl+fn+f1在firefox中打开  
+        "args":
+        {
+            "paths": [],
+            "application": "G:\\programfile\\firefox\\firefox.exe",
+            "extensions": ".*" //any file with extension  
+        }
+    },
+
+
+    {
+        "keys": ["ctrl+alt+k"],
+        "command": "css_comb",
+        "args": null
+    },
+
+    //定义取消编译快捷键
+    {
+        "keys": ["ctrl+shift+b"],
+        "command": "exec",
+        "args":
+        {
+            "kill": true
+        }
+    },
+
+    {
+        "keys": ["ctrl+shift+t"],
+        "command": "open_terminal"
+    },
+    {
+        "keys": ["ctrl+shift+alt+t"],
+        "command": "open_terminal_project_folder"
+    },
+    {
+        "keys": ["ctrl+\\"],
+        "command": "toggle_side_bar"
+    },
+    {
+        "keys": ["ctrl+shift+o"],
+        "command": "prompt_open_folder"
+    },
+    {
+        "keys": ["ctrl+alt+v"],
+        "command": "sublime_tmpl",
+        "args":
+        {
+            "type": "vue"
+        },
+        "context": [
+        {
+            "key": "sublime_tmpl.vue"
+        }]
+    }
+]

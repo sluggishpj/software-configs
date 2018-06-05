@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"AutoFileName",
+		"Babel",
+		"Boxy Theme",
+		"BracketHighlighter",
+		"DocBlockr",
+		"Emmet",
+		"HTML-CSS-JS Prettify",
+		"IMESupport",
+		"JavaScript Completions",
+		"Markdown Extended",
+		"Package Control",
+		"Package Syncing",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeServer",
+		"Terminal",
+		"Vue Syntax Highlight",
+		"Vuejs Snippets"
+	]
+}
