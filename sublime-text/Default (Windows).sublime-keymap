@@ -66,15 +66,7 @@
         "command": "prompt_open_folder"
     },
     {
-        "keys": ["ctrl+alt+v"],
-        "command": "sublime_tmpl",
-        "args":
-        {
-            "type": "vue"
-        },
-        "context": [
-        {
-            "key": "sublime_tmpl.vue"
-        }]
+        "keys":["ctrl+q"],
+        "command":"js_prettier"
     }
 ]
