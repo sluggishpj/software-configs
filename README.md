@@ -24,6 +24,15 @@ $ npm install -g eslint
 
 
 ## 其他
+### cmder
+* 解决中文乱码
+在Settings > Startup > Environment里添加：set LANG=zh_CN.UTF8
+
+* 添加到右键菜单中
+路径在是在当前目录路径， 在管理员权限的终端 输入以下语句即可:
+```bash
+Cmder.exe /REGISTER ALL
+```
 
 ### npm
 
