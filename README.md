@@ -24,6 +24,18 @@ $ npm install -g eslint
 
 
 ## 其他
+### git
+* 设置用户名和邮箱
+```bash
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+```
+* 生成公钥和私钥
+```bash
+$ ssh-keygen -t rsa -C "youremail@example.com"
+```
+
+
 ### cmder
 * 解决中文乱码
 在Settings > Startup > Environment里添加：set LANG=zh_CN.UTF8
