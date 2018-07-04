@@ -1,4 +1,7 @@
 ## sublime text
+### 初始化
+* `ctrl+shift+p`输入package control，然后install它
+* 安装完`package control`后，`ctrl+shift+p`输入`install package`回车，输入`package syncing`然后安装
 
 ### 同步配置
 
