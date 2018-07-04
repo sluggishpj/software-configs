@@ -20,8 +20,9 @@ $ npm install -g eslint
 ### 配置
 
 * 生成eslint配置：在项目根目录下配置，运行`eslint --init`
+* 配置HTML/CSS/JS Prettify插件使之支持vue格式化，在tools->HTML/CSS/JS Prettify-> set node path里面的在"allowed_file_extensions": ["htm", "html", "xhtml", "shtml", "xml", "svg","vue"] 加上vue就好
 
-
+> 来源：https://segmentfault.com/q/1010000004221470
 
 ## 其他
 ### git
