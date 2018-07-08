@@ -16,7 +16,7 @@
 		"Vintage"
 	],
 	"index_files": false,
-	"tab_size": 2,
+	"tab_size": 4,
 	"theme": "Boxy Yesterday.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true
